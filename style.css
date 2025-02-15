@@ -1,0 +1,49 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('cgc.jpg'); /* Replace with your sunset image URL */
+    background-size: cover; /* Cover the entire background */
+    color: #cb1a1a; /* White text color */
+}
+
+.container {
+    max-width: 600px;
+    margin: 100px auto; /* Center the container */
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+#results {
+    margin-top: 20px;
+}
+
+.result {
+    padding: 10px;
+    border-bottom: 1px solid #ccc; /* Light grey bottom border */
+}
+
+.result:last-child {
+    border-bottom: none; /* Remove border from the last result */
+}
+
+
+
+
